@@ -120,21 +120,21 @@ const education = [
     title: "B.E. in Computer Science & Engineering",
     school: "Biluru Gurubasava Mahaswamji Institute of Technology, Mudhol",
     desc: "Currently pursuing B.E. in CSE, specialising in software development, AI/ML, and emerging technologies.",
-    img: "/portfolio-1-/college.jpg",
+    img: "/portfolio-1-/public/college.jpg",
   },
   {
     date: "2023",
     title: "Higher Secondary (Science)",
     school: "Shree Guru Independent PU College, Kalaburagi, Karnataka",
     desc: "Completed PUC in Science stream with 83.72%.",
-    img: "/portfolio-1-/pu-college.jpg",
+    img: "/portfolio-1-/public/pu-college.jpg",
   },
   {
     date: "2021",
     title: "Secondary School Certificate",
     school: "S.R.G English Medium School, Aland",
     desc: "Completed SSLC with an impressive 92.8%.",
-    img: "/portfolio-1-/school.jpg",
+    img: "/portfolio-1-/public/school.jpg",
   },
 ];
 
