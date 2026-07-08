@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./portfolio.css";
 
-const profileImg = "/profile.jpg";
+const profileImg = "/portfolio-1-/profile.jpg";
 
 const navItems = [
   { href: "#home", label: "Home" },
@@ -120,28 +120,28 @@ const education = [
     title: "B.E. in Computer Science & Engineering",
     school: "Biluru Gurubasava Mahaswamji Institute of Technology, Mudhol",
     desc: "Currently pursuing B.E. in CSE, specialising in software development, AI/ML, and emerging technologies.",
-    img: "/college.jpg",
+    img: "/portfolio-1-/college.jpg",
   },
   {
     date: "2023",
     title: "Higher Secondary (Science)",
     school: "Shree Guru Independent PU College, Kalaburagi, Karnataka",
     desc: "Completed PUC in Science stream with 83.72%.",
-    img: "/pu-college.jpg",
+    img: "/portfolio-1-/pu-college.jpg",
   },
   {
     date: "2021",
     title: "Secondary School Certificate",
     school: "S.R.G English Medium School, Aland",
     desc: "Completed SSLC with an impressive 92.8%.",
-    img: "/school.jpg",
+    img: "/portfolio-1-/school.jpg",
   },
 ];
 
 const achievements = [
   {
     icon: "fas fa-microphone",
-    img: "/paper presentation.jpg",
+    img: "/portfolio-1-/paper-presentation.jpg",
     tag: "Paper Presentation",
     title: "ICDTSES 2026 — NIT Puducherry",
     host: "National Institute of Technology, Puducherry",
@@ -149,7 +149,7 @@ const achievements = [
   },
   {
     icon: "fas fa-laptop-code",
-    img: "/24-hour hackathon.jpg",
+    img: "/portfolio-1-/24-hour-hackathon.jpg",
     tag: "24-Hour Hackathon",
     title: "CICADA 2025 — Inter-Collegiate Tech Fest",
     host: "Atria Institute of Technology, Bengaluru",
@@ -157,7 +157,7 @@ const achievements = [
   },
   {
     icon: "fas fa-atom",
-    img: "/qubit-thon.jpg",
+    img: "/portfolio-1-/qubit-thon.jpg",
     tag: "Hackathon · Qubit-Thon",
     title: "NQSS & NQC 2026 — VTU, Belagavi",
     host: "Visvesvaraya Technological University",
@@ -878,8 +878,8 @@ export default function App() {
                 <i className="fab fa-linkedin-in" />
               </a>
               <a href="https://github.com/Inderkumar-kulkarni" target="_blank" rel="noreferrer" className="social-link">
-                  <i className="fab fa-github" />
-                          </a>
+                <i className="fab fa-github" />
+              </a>
               <a href="mailto:inderkumarkulkarni@gmail.com" className="social-link">
                 <i className="fas fa-envelope" />
               </a>
@@ -1007,13 +1007,15 @@ export default function App() {
                 >
                   <i className="fab fa-linkedin-in" />
                 </a>
-               <a href="https://github.com/Inderkumar-kulkarni"
-                              target="_blank"
-                                rel="noreferrer"
-                                className="social-link"
-                      style={{ background: "rgba(255,255,255,0.08)", color: "white" }} >
-                              <i className="fab fa-github" />
-                               </a>
+                <a
+                  href="https://github.com/Inderkumar-kulkarni"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-link"
+                  style={{ background: "rgba(255,255,255,0.08)", color: "white" }}
+                >
+                  <i className="fab fa-github" />
+                </a>
                 <a
                   href="mailto:inderkumarkulkarni@gmail.com"
                   className="social-link"
